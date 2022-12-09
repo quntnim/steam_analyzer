@@ -4,7 +4,7 @@ import img from '../img/steam.png'
 
 const Login = () => {
     return (
-        <div>
+        <div className='bg'>
             <div className='mid'>
                 <img className="logo" src={img}/>
                 <p>Steam analyst와 Steam을 연동하여 추가 정보를 가져올 수 있습니다.</p>
@@ -16,7 +16,6 @@ const Login = () => {
                     <span className='btntxt'>스팀을 통해 로그인</span>
                 </button>
             </div>
-            
         </div>
     )
 }
